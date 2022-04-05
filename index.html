@@ -2,11 +2,11 @@
 <html lang="ru">
 
 <head>
-	<title>Portfolio</title>
+	<title>Главная</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220223011700">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220223013909">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -15,206 +15,213 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container">
-				<a href="" class="header__logo"><img src="img/icons/logo.svg" alt=""></a>
-				<div class="header__menu menu">
-					<nav class="menu__body">
-						<ul class="menu__list">
-							<li class="menu__item"><a href="" class="menu__link">Services</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Works</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Blog</a></li>
-						</ul>
-					</nav>
+				<div class="header__body">
+					<a href="" class="header__logo"><img src="img/logo.svg" alt=""></a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">Home</a></li>
+								<li class="menu__item"><a href="" class="menu__link">About</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Shop</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Contact</a></li>
+							</ul>
+							<button type="button" class="header__cart">Cart</button>
+						</nav>
+					</div>
 				</div>
-				<a href="" class="header__btn btn">Hire me</a>
-				<button type="button" class="menu__icon icon-menu"><span></span></button>
 			</div>
 		</header>
 		<main class="page">
-			<div class="main-block">
-				<div class="main-block__container">
-					<div class="main-block__content">
-						<div class="main-block__name">Jessica Strosin</div>
-						<div class="main-block__title">Creative thinker Minimalism lover</div>
-						<p class="main-block__text">Hi, I’m Jessica. I’m UI/UX Designer. If you are looking for Designer to build your brands and grow your business Let’s shake hands with me.</p>
-						<div class="main-block__buttons">
-							<a href="" class="main-block__btn btn btn_color">Hire me</a>
-							<a href="" class="main-block__btn btn">Read more</a>
+
+			<section class="main-page page">
+				<div class="main-page__container">
+					<div class="main-page__content content-main">
+						<div class="content-main__body">
+							<div class="content-main__subtitle subtitle">Pompeo Pottery</div>
+							<div class="content-main__title"> Unique Porcelain <span class="and">&</span> <br> Stone Collection</div>
+							<div class="content-main__text text">Unique & modern pottery made by our master in porcelain & stones</div>
+							<a href="" class="content-main__btn btn">Shop Collection</a>
 						</div>
-						<div class="main-block__note">I am currently open for part-time work.</div>
 					</div>
-					<div class="main-block__image"><picture><source srcset="img/content/main-img.webp" type="image/webp"><img src="img/content/main-img.jpg" alt=""></picture></div>
+					<div class="main-page__img"><picture><source srcset="img/main/main-img.webp" type="image/webp"><img src="img/main/main-img.png" alt=""></picture></div>
 				</div>
-			</div>
-			<div class="project-block">
-				<div class="project-block__container">
-					<div class="project-block__heading heading">From beginning ideas to individual integrity, rich identity from the line <span>on the paper to final projects</span></div>
-					<div class="project-block__content">
-						<div class="project-block__image"><picture><source srcset="img/content/block1.webp" type="image/webp"><img src="img/content/block1.jpg" alt=""></picture></div>
-						<div class="project-block__columns column-project">
-							<div class="column-project__item">
-								<div class="column-project__title">Web design</div>
-								<div class="column-project__text">Provide our customers with optimized user-friendly experience to increase the efficiency of digital products.</div>
-								<a href="" class="column-project__btn-more _icon-arrow"><span>See Works</span></a>
+			</section>
+
+			<section class="categories-page page">
+				<div class="categories-page__container">
+					<div class="categories-page__heading heading-categories">
+						<div class="heading-categories__subtitle subtitle">Product Categories</div>
+						<div class="heading-categories__title title">Porcelain <span class="and">&</span> Pottery</div>
+					</div>
+					<div class="categories-page__categories column-categories">
+						<a href="" class="column-categories__column column-categories__column_c-yellow">
+							<div class="column-categories__body ">
+								<div class="column-categories__img"><img src="img/icon/categories1.svg" alt=""></div>
+								<div class="column-categories__subject">Vases</div>
 							</div>
-							<div class="column-project__item">
-								<div class="column-project__title">Mobile design</div>
-								<div class="column-project__text">Mobile application development is a highlight that businesses are interested in at the moment and in the future.</div>
-								<a href="" class="column-project__btn-more _icon-arrow"><span>See Works</span></a>
+						</a>
+						<a href="" class="column-categories__column column-categories__column_c-orange">
+							<div class="column-categories__body ">
+								<div class="column-categories__img"><img src="img/icon/categories2.svg" alt=""></div>
+								<div class="column-categories__subject">Mugs</div>
 							</div>
-							<div class="column-project__item">
-								<div class="column-project__title">Branding</div>
-								<div class="column-project__text">Understanding the business and their target customers, I’m the bridges to bring the brand closer to their clients.</div>
-								<a href="" class="column-project__btn-more _icon-arrow"><span>See Works</span></a>
+						</a>
+						<a href="" class="column-categories__column column-categories__column_c-red">
+							<div class="column-categories__body ">
+								<div class="column-categories__img"><img src="img/icon/categories3.svg" alt=""></div>
+								<div class="column-categories__subject">Plates</div>
 							</div>
-							<div class="column-project__item">
-								<div class="column-project__title">3D Modeling</div>
-								<div class="column-project__text">Help you translate your existing design or concept into CAD or to work with you to develop the ideal design. 3D Models great for modern digital art</div>
-								<a href="" class="column-project__btn-more _icon-arrow"><span>See Works</span></a>
-							</div>
-							<div class="column-project__item">
-								<div class="column-project__title">Photography</div>
-								<div class="column-project__text">While stock photography is a great option for sourcing high-quality photos, it’s important that you choose your photos thoughtfully.</div>
-								<a href="" class="column-project__btn-more _icon-arrow"><span>See Works</span></a>
-							</div>
-							<div class="column-project__item">
-								<div class="column-project__title">Video creating</div>
-								<div class="column-project__text">Create high-impact social videos with our easy video maker. Use custom video templates to find the right story for your business.</div>
-								<a href="" class="column-project__btn-more _icon-arrow"><span>See Works</span></a>
-							</div>
+						</a>
+					</div>
+					<div class="categories-page__text-column text-column">
+						<div class="text-column__body">
+							<div class="text-column__title">Hand Grafted <br> Pottery since 1990</div>
+							<div class="text-column__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus posuere.</div>
+						</div>
+						<div class="text-column__body">
+							<div class="text-column__title">We Provide Premium <br> Pottery Produts</div>
+							<div class="text-column__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus posuere.</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="trusted-block">
-				<div class="trusted-block__container">
-					<div class="trusted-block__caption">Trusted by</div>
-					<ul class="trusted-block__company">
-						<li class="trusted-block__logo-company"><img src="img/icons/alphabet-logo.svg" alt=""></li>
-						<li class="trusted-block__logo-company"><img src="img/icons/shopify-logo.svg" alt=""></li>
-						<li class="trusted-block__logo-company"><img src="img/icons/amazon-logo.svg" alt=""></li>
-						<li class="trusted-block__logo-company"><img src="img/icons/google-logo.svg" alt=""></li>
-						<li class="trusted-block__logo-company"><img src="img/icons/netflix-logo.svg" alt=""></li>
-					</ul>
-				</div>
-			</div>
-			<div class="gallery-block">
-				<div class="gallery-block__container">
-					<div class="gallery-block__heading heading">It’s great to always give the customer the best feed.</div>
-					<div class="gallery-block__body">
-						<div class="gallery-block__image gallery-block__image_1">
-							<picture><source srcset="img/content/block3-1.webp" type="image/webp"><img src="img/content/block3-1.jpg" alt=""></picture>
-							<a href="" class="gallery-block__info-card info-card">
-								<div class="info-card__body _icon-arrow">
-									<p class="info-card__title">Project title here</p>
-									<p class="info-card__subtitle">Photograph</p>
-								</div>
-							</a>
+			</section>
+
+			<section class="description-page page">
+				<div class="description-page__container">
+					<div class="description-page__body">
+						<div class="description-page__row">
+							<div class="description-page__img"><picture><source srcset="img/products/p1.webp" type="image/webp"><img src="img/products/p1.png" alt=""></picture></div>
+							<div class="description-page__info">
+								<div class="description-page__title">Gold & Black Pottery</div>
+								<div class="description-page__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore dolore aua. Ut enim ad minim veniam, quis nostrud exercitationulco laboris nisi ut aliquip ex ea commodo consequatuisaute.</div>
+								<a href="" class="description-page__btn-more">View Details</a>
+							</div>
 						</div>
-						<div class="gallery-block__image gallery-block__image_3">
-							<picture><source srcset="img/content/block3-3.webp" type="image/webp"><img src="img/content/block3-3.jpg" alt=""></picture>
-							<a href="" class="gallery-block__info-card info-card">
-								<div class="info-card__body _icon-arrow">
-									<p class="info-card__title">Project title here</p>
-									<p class="info-card__subtitle">Photograph</p>
-								</div>
-							</a>
-						</div>
-						<div class="gallery-block__image gallery-block__image_2">
-							<picture><source srcset="img/content/block3-2.webp" type="image/webp"><img src="img/content/block3-2.jpg" alt=""></picture>
-							<a href="" class="gallery-block__info-card info-card">
-								<div class="info-card__body _icon-arrow">
-									<p class="info-card__title">Project title here</p>
-									<p class="info-card__subtitle">Photograph</p>
-								</div>
-							</a>
-						</div>
-						<div class="gallery-block__image gallery-block__image_4">
-							<picture><source srcset="img/content/block3-4.webp" type="image/webp"><img src="img/content/block3-4.jpg" alt=""></picture>
-							<a href="" class="gallery-block__info-card info-card">
-								<div class="info-card__body _icon-arrow">
-									<p class="info-card__title">Project title here</p>
-									<p class="info-card__subtitle">Photograph</p>
-								</div>
-							</a>
+						<div class="description-page__row">
+							<div class="description-page__info">
+								<div class="description-page__title">Orange Ceramic</div>
+								<div class="description-page__text text">Pri cu dico labores officiis, odio principes complectitur ad sea. Sea id doctus forensibus, nec lorem vocent aliquam eu. Aliquid definitiones id cum, ad meliore perpetua referrentur sed. Quas suscipit ad mea verear vivendo tincidunt.</div>
+								<a href="" class="description-page__btn-more">View Details</a>
+							</div>
+							<div class="description-page__img"><picture><source srcset="img/products/p2.webp" type="image/webp"><img src="img/products/p2.png" alt=""></picture></div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="quality-block">
-				<div class="quality-block__container">
-					<div class="quality-block__body">
-						<div class="quality-block__column quality-column">
-							<div class="quality-column__icon _icon-bar"></div>
-							<div class="quality-column__title">Business planning</div>
-							<div class="quality-column__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-						</div>
-						<div class="quality-block__column quality-column">
-							<div class="quality-column__icon _icon-dollar"></div>
-							<div class="quality-column__title">Financial planning</div>
-							<div class="quality-column__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-						</div>
-						<div class="quality-block__column quality-column">
-							<div class="quality-column__icon _icon-search"></div>
-							<div class="quality-column__title">Market Analytics</div>
-							<div class="quality-column__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-						</div>
+			</section>
+
+			<section class="products-page page">
+				<div class="products-page__container">
+					<div class="products-page__heading heading-product">
+						<div class="heading-product__subtitle subtitle">Our online store</div>
+						<div class="heading-product__title title">Pottery Collection</div>
+					</div>
+					<div class="products-page__products product-card">
+						<a href="" class="product-card__body">
+							<div class="product-card__img"><picture><source srcset="img/products/product-1.webp" type="image/webp"><img src="img/products/product-1.jpg" alt=""></picture></div>
+							<div class="product-card__info">
+								<div class="product-card__title">Decor Plate</div>
+								<div class="product-card__price">$ 65.00 USD</div>
+							</div>
+						</a>
+						<a href="" class="product-card__body">
+							<div class="product-card__img"><picture><source srcset="img/products/product-2.webp" type="image/webp"><img src="img/products/product-2.jpg" alt=""></picture></div>
+							<div class="product-card__info">
+								<div class="product-card__title">Mint Pottery</div>
+								<div class="product-card__price">$ 75.00 USD</div>
+							</div>
+						</a>
+						<a href="" class="product-card__body">
+							<div class="product-card__img"><picture><source srcset="img/products/product-3.webp" type="image/webp"><img src="img/products/product-3.jpg" alt=""></picture></div>
+							<div class="product-card__info">
+								<div class="product-card__title">Set Of Potterys</div>
+								<div class="product-card__price">$ 125.00 USD</div>
+							</div>
+						</a>
+						<a href="" class="product-card__body">
+							<div class="product-card__img"><picture><source srcset="img/products/product-4.webp" type="image/webp"><img src="img/products/product-4.jpg" alt=""></picture></div>
+							<div class="product-card__info">
+								<div class="product-card__title">Orange Ceramic</div>
+								<div class="product-card__price">$ 55.00 USD</div>
+							</div>
+						</a>
+						<a href="" class="product-card__body">
+							<div class="product-card__img"><picture><source srcset="img/products/product-5.webp" type="image/webp"><img src="img/products/product-5.jpg" alt=""></picture></div>
+							<div class="product-card__info">
+								<div class="product-card__title">Dark Bowl</div>
+								<div class="product-card__price">$ 115.00 USD</div>
+							</div>
+						</a>
+						<a href="" class="product-card__body">
+							<div class="product-card__img"><picture><source srcset="img/products/product-6.webp" type="image/webp"><img src="img/products/product-6.jpg" alt=""></picture></div>
+							<div class="product-card__info">
+								<div class="product-card__title">Square Pottery</div>
+								<div class="product-card__price">$ 75.00 USD</div>
+							</div>
+						</a>
+					</div>
+					<a href="#" class="products-page__btn btn">View All Products</a>
+				</div>
+			</section>
+
+			<section class="more-page page">
+				<div class="more-page__container">
+					<div class="more-page__body">
+						<div class="more-page__subtitle subtitle">Pompeo Pottery</div>
+						<div class="more-page__title">Ready to start shopping?</div>
+						<div class="more-page__text text">Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>. Suspendisse varius enim in eros elementum.</div>
+						<a href="" class="more-page__btn btn">New Collection</a>
 					</div>
 				</div>
-			</div>
-			<div class="careers-block">
-				<div class="careers-block__container">
-					<div class="careers-block__heading heading">Careers</div>
-					<table class="careers-block__table careers-table">
-						<thead class="careers-table__head">
-							<tr class="careers-table__row">
-								<td class="careers-table__item">COMPANY</td>
-								<td class="careers-table__item">POSITION</td>
-								<td class="careers-table__item careers-table__item_w">YEAR</td>
-							</tr>
-						</thead>
-						<tbody class="careers-table__body">
-							<tr class="careers-table__row">
-								<td class="careers-table__item"><span>Massa Fames</span> / New York</td>
-								<td class="careers-table__item">Junior Front-End Developer</td>
-								<td class="careers-table__item careers-table__item_w">2016</td>
-							</tr>
-							<tr class="careers-table__row">
-								<td class="careers-table__item"><span>Massa Fames</span> / New York</td>
-								<td class="careers-table__item">Junior Front-End Developer</td>
-								<td class="careers-table__item careers-table__item_w">2016</td>
-							</tr>
-							<tr class="careers-table__row">
-								<td class="careers-table__item"><span>Massa Fames</span> / New York</td>
-								<td class="careers-table__item">Junior Front-End Developer</td>
-								<td class="careers-table__item careers-table__item_w">2016</td>
-							</tr>
-							<tr class="careers-table__row">
-								<td class="careers-table__item"><span>Massa Fames</span> / New York</td>
-								<td class="careers-table__item">Junior Front-End Developer</td>
-								<td class="careers-table__item careers-table__item_w">2016</td>
-							</tr>
-							<tr class="careers-table__row">
-								<td class="careers-table__item"><span>Massa Fames</span> / New York</td>
-								<td class="careers-table__item">Junior Front-End Developer</td>
-								<td class="careers-table__item careers-table__item_w">2016</td>
-							</tr>
-						</tbody>
-					</table>
+			</section>
+
+			<section class="news-page page">
+				<div class="news-page__container">
+					<div class="news-page__body">
+						<div class="news-page__img"><img src="img/icon/news.svg" alt=""></div>
+						<div class="news-page__subtitle subtitle">Latest news</div>
+						<div class="news-page__title title">Latest news <span class="and">&</span> New updates</div>
+						<form action="" class="news-page__form news-form">
+							<input class="news-form__email" type="email" placeholder="Enter your email">
+							<button class="news-form__btn" type="submit">SUBSCRIBE</button>
+							<div class="news-form__checkbox">
+								<input type="checkbox" class="news-form__check" id="checkbox">
+								<label for="checkbox" class="news-form__sign">Sign up for our newsletter</label>
+							</div>
+						</form>
+					</div>
 				</div>
-			</div>
+			</section>
+
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
-				<div class="footer__heading heading">Contact with me</div>
-				<div class="footer__text">I’m not currently taking on new client work but feel free to contact me for any other inquiries.</div>
-				<ul class="footer__socials">
-					<li class="footer__link "><a href="" class="_icon-twitter"></a></li>
-					<li class="footer__link "><a href="" class="_icon-dribbble"></a></li>
-					<li class="footer__link "><a href="" class="_icon-facebook"></a></li>
-					<li class="footer__link "><a href="" class="_icon-codepen"></a></li>
-					<li class="footer__link "><a href="" class="_icon-at"></a></li>
-					<li class="footer__link "><a href="" class="_icon-instagram"></a></li>
-				</ul>
+				<div class="footer__top top-footer">
+					<div class="top-footer__top">
+						<a href="" class="top-footer__logo"><img src="img/logo.svg" alt=""></a>
+						<div class="top-footer__slogan text">I have always striven to fix beauty in wood, stone, glass or pottery, that has been my creed.</div>
+					</div>
+					<div class="top-footer__contacts-column contacts-column">
+						<div class="contacts-column__body">
+							<div class="contacts-column__img"><img src="img/icon/email.svg" alt=""></div>
+							<div class="contacts-column__title">EMAIL</div>
+							<a href="mailto:pompeopotery@gmail.com" class="contacts-column__link">pompeopotery@gmail.com</a>
+						</div>
+						<div class="contacts-column__body">
+							<div class="contacts-column__img"><img src="img/icon/map.svg" alt=""></div>
+							<div class="contacts-column__title">find</div>
+							<a href="" class="contacts-column__link">Central Park, Manhattan New York, 1101</a>
+						</div>
+						<div class="contacts-column__body">
+							<div class="contacts-column__img"><img src="img/icon/phone.svg" alt=""></div>
+							<div class="contacts-column__title">CALL</div>
+							<a href="tel:+1292345678" class="contacts-column__link">+1 292 345 678</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<p class="bottom-footer__text">Template design by <span>Dorian Hoxha</span> - <span>Image License Info</span> Powered by <span>Webflow</span></p>
+				</div>
 			</div>
 		</footer>
 	</div>
@@ -230,7 +237,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20220223011700"></script>
+	<script src="js/app.min.js?_v=20220223013909"></script>
 </body>
 
 </html>
