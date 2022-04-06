@@ -336,18 +336,20 @@ h6 {
   line-height: 1.8333333333;
   letter-spacing: 0.125rem;
 }
-@media (min-width: 47.99875em) {
-  .menu__item:hover {
-    color: #AC1313;
-    transition: all 0.3s ease 0s;
-  }
-}
 @media (max-width: 47.99875em) {
   .menu__item {
     font-size: 2.25rem;
     color: #000;
   }
 }
+.menu__link {
+  transition: all 0.3s ease 0s;
+}
+.menu__link:hover {
+  color: #AC1313;
+  transition: all 0.3s ease 0s;
+}
+
 .icon-menu {
   display: none;
 }
@@ -892,6 +894,7 @@ h6 {
   align-items: center;
   border-radius: 50%;
   border: solid rgba(0, 0, 0, 0.05);
+  transition: all 0.5s ease 0s;
 }
 @media (min-width: 74em) {
   .column-categories__column {
@@ -1167,6 +1170,7 @@ h6 {
 .description-page__btn-more {
   font-weight: 700;
   line-height: 1.7142857143;
+  transition: all 0.3s ease 0s;
 }
 @media (min-width: 74em) {
   .description-page__btn-more {
@@ -1189,6 +1193,10 @@ h6 {
   .description-page__btn-more {
     font-size: 1.125rem;
   }
+}
+.description-page__btn-more:hover {
+  color: #AC1313;
+  transition: all 0.3s ease 0s;
 }
 
 .products-page__container {
